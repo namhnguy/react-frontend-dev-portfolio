@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/namhnguy/react-frontend-dev-portfolio/static/css/main.77063693.chunk.css",
-    "main.js": "/namhnguy/react-frontend-dev-portfolio/static/js/main.0c4ee2cd.chunk.js",
-    "main.js.map": "/namhnguy/react-frontend-dev-portfolio/static/js/main.0c4ee2cd.chunk.js.map",
-    "runtime-main.js": "/namhnguy/react-frontend-dev-portfolio/static/js/runtime-main.1afddaa2.js",
-    "runtime-main.js.map": "/namhnguy/react-frontend-dev-portfolio/static/js/runtime-main.1afddaa2.js.map",
-    "static/css/2.d64471e2.chunk.css": "/namhnguy/react-frontend-dev-portfolio/static/css/2.d64471e2.chunk.css",
-    "static/js/2.dce90a18.chunk.js": "/namhnguy/react-frontend-dev-portfolio/static/js/2.dce90a18.chunk.js",
-    "static/js/2.dce90a18.chunk.js.map": "/namhnguy/react-frontend-dev-portfolio/static/js/2.dce90a18.chunk.js.map",
-    "index.html": "/namhnguy/react-frontend-dev-portfolio/index.html",
-    "precache-manifest.27327cc87852e6f56f89ca5c47f72489.js": "/namhnguy/react-frontend-dev-portfolio/precache-manifest.27327cc87852e6f56f89ca5c47f72489.js",
-    "service-worker.js": "/namhnguy/react-frontend-dev-portfolio/service-worker.js",
-    "static/css/2.d64471e2.chunk.css.map": "/namhnguy/react-frontend-dev-portfolio/static/css/2.d64471e2.chunk.css.map",
-    "static/css/main.77063693.chunk.css.map": "/namhnguy/react-frontend-dev-portfolio/static/css/main.77063693.chunk.css.map",
-    "static/js/2.dce90a18.chunk.js.LICENSE.txt": "/namhnguy/react-frontend-dev-portfolio/static/js/2.dce90a18.chunk.js.LICENSE.txt"
+    "main.css": "/react-frontend-dev-portfolio/static/css/main.77063693.chunk.css",
+    "main.js": "/react-frontend-dev-portfolio/static/js/main.043e8198.chunk.js",
+    "main.js.map": "/react-frontend-dev-portfolio/static/js/main.043e8198.chunk.js.map",
+    "runtime-main.js": "/react-frontend-dev-portfolio/static/js/runtime-main.0af024f6.js",
+    "runtime-main.js.map": "/react-frontend-dev-portfolio/static/js/runtime-main.0af024f6.js.map",
+    "static/css/2.d64471e2.chunk.css": "/react-frontend-dev-portfolio/static/css/2.d64471e2.chunk.css",
+    "static/js/2.dce90a18.chunk.js": "/react-frontend-dev-portfolio/static/js/2.dce90a18.chunk.js",
+    "static/js/2.dce90a18.chunk.js.map": "/react-frontend-dev-portfolio/static/js/2.dce90a18.chunk.js.map",
+    "index.html": "/react-frontend-dev-portfolio/index.html",
+    "precache-manifest.f04d55477ffa029ce8af8e0ed5458372.js": "/react-frontend-dev-portfolio/precache-manifest.f04d55477ffa029ce8af8e0ed5458372.js",
+    "service-worker.js": "/react-frontend-dev-portfolio/service-worker.js",
+    "static/css/2.d64471e2.chunk.css.map": "/react-frontend-dev-portfolio/static/css/2.d64471e2.chunk.css.map",
+    "static/css/main.77063693.chunk.css.map": "/react-frontend-dev-portfolio/static/css/main.77063693.chunk.css.map",
+    "static/js/2.dce90a18.chunk.js.LICENSE.txt": "/react-frontend-dev-portfolio/static/js/2.dce90a18.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1afddaa2.js",
+    "static/js/runtime-main.0af024f6.js",
     "static/css/2.d64471e2.chunk.css",
     "static/js/2.dce90a18.chunk.js",
     "static/css/main.77063693.chunk.css",
-    "static/js/main.0c4ee2cd.chunk.js"
+    "static/js/main.043e8198.chunk.js"
   ]
 }
