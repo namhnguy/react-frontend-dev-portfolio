@@ -1,0 +1,59 @@
+{
+    "basic_info": {
+      "name": "Nam Nguyen",
+      "titles": [ "Front-end Developer" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/namhnguy",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/nam-nguyen-b9443419b/",
+          "class": "fab fa-linkedin"
+        }
+      ],
+      "image": "profile.jpg"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-plain"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain"
+        },
+        {
+          "name": "Node.js",
+          "class": "devicon-nodejs-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "C#",
+          "class": "devicon-csharp-plain"
+        },
+        {
+          "name": "Express",
+          "class": "devicon-express-original"
+        },
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain"
+        }
+      ]
+    }
+  }
