@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description_header": "Welcome",
+      "description": "I am a recent graduate from UT Dallas who is interested in web development and game development. I have experience building web applications using React and the MERN stack. Please check out some of my projects below for details. I also enjoy making 2D and 3D games using the Unity Engine.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,107 +11,186 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Pixel Art",
+        "startDate": "2022",
+        "description": "A fun project to supply a way for anyone to do simple pixel art right in their browser. Be it for a mockup or to make a work of art, this project gives that possibility. This project was made to learn the underlying usages of Javascript to manipulate the DOM and using event listeners.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/pixel-art/pixel-art.jpg"
         ],
-        "url": "",
+        "url": "https://namhnguy.github.io/etch-a-sketch/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Calculator",
+        "startDate": "2022",
+        "description": "A calculator that can perform add, subtract, multiply, and division functions. Tried to match similar operate functions as window's calculator. I took up this personal project to learn implementations of basic css, html, and dom manipulation using javascript. ",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/calculator/1.jpg",
+          "images/portfolio/calculator/2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://namhnguy.github.io/calculator/",
         "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
+          }
+        ]
+      },
+      {
+        "title": "Logbook ARG",
+        "startDate": "2021",
+        "description": "This project was made as part of an ARG for a community that enjoys solving mysteries and puzzles. The project itself is hosted on vercel and utilize Next.js framework. For fast deployment of style, Chakra UI was used. Firebase was used as the backend to hold data of puzzle answers.",
+        "images": [
+          "images/portfolio/logbook/1.jpg",
+          "images/portfolio/logbook/2.jpg"
+        ],
+        "url": "https://thetruthmaybeprobably.vercel.app/",
+        "technologies": [
+          {
+            "class": "devicon-nextjs-plain",
+            "name": "Next.js"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-firebase-plain",
+            "name": "Firebase"
+          }
+        ]
+      },
+      {
+        "title": "Memory Game",
+        "startDate": "2022",
+        "description": "A memory game based on popular comic characters. The goal is to click on as many unique images in a row. This project was made using react and functional component. It was made to explore lifecycles using hooks. The challenging part of this project was to store the state and share it with other components while also updating each component's view to match. Hooks such as useState and  useEffect were used. This project also get image data using fetch from an api endpoint.",
+        "images": [
+          "images/portfolio/memory/1.jpg",
+          "images/portfolio/memory/2.jpg"
+        ],
+        "url": "https://namhnguy.github.io/react-memory-game/",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          }
+        ]
+      },
+      {
+        "title": "MERN stack project",
+        "startDate": "2022",
+        "description": "This project provide users an ability to set goals for future review. It utilize the MERN stack to provide this. State management is also handled using Redux to share state throughout the components. Axios was used in the frontend to query the database provided by mongoDB to get user's goal data. On the backend, express was used to make the routes to handle CRUD functions to mongoDB. Users are authenticated using JWT to provide a token and check against the database.",
+        "images": [
+          "images/portfolio/mern/1.jpg",
+          "images/portfolio/mern/2.jpg",
+          "images/portfolio/mern/3.jpg"
+        ],
+        "url": "https://mernapp-project-antra.herokuapp.com/",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
+          },
           {
             "class": "devicon-react-original",
             "name": "React"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-express-original",
+            "name": "Express"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDB"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-nodejs-plain",
+            "name": "Node.js"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Codubee",
+        "title": "Front-End Developer Mentee",
+        "years": "01.2021 - 05.2021",
         "mainTech": [
-          "Angular 8/9/10"
+          "React"
         ],
         "technologies": [
           "REST API",
-          "RxJS",
           "JavaScript",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Reactstrap",
+          "HTML",
+          "CSS",
+          "Jira",
+          "Node.js",
+          "Postman",
+          "Express"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Antra",
+        "title": "Front-End React Intern",
+        "years": "01.2022 - present",
         "mainTech": [
-          "Angular 7/8"
+          "React"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
+          "REST API",
           "JavaScript",
-          "DHTMLX Gantt"
+          "Bootstrap",
+          "HTML",
+          "CSS",
+          "Slack",
+          "Node.js",
+          "Postman",
+          "Express",
+          "Redux",
+          "MongoDB"
         ]
       }
     ]
