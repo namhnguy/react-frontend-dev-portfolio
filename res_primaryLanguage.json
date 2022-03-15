@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Welcome",
-      "description": "I am a recent graduate from UT Dallas who is interested in web development and game development. I have experience building web applications using React and the MERN stack. Please check out some of my projects below for details. I also enjoy making 2D and 3D games using the Unity Engine.",
+      "description": "I am a graduate from UT Dallas who is interested in web development and game development. I have 4 year experience building web applications using React and the MERN stack. I also enjoy making 2D and 3D games using the Unity Engine.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -12,7 +12,7 @@
     "projects": [
       {
         "title": "Pixel Art",
-        "startDate": "2022",
+        "startDate": "2021",
         "description": "A fun project to supply a way for anyone to do simple pixel art right in their browser. Be it for a mockup or to make a work of art, this project gives that possibility. This project was made to learn the underlying usages of Javascript to manipulate the DOM and using event listeners.",
         "images": [
           "images/portfolio/pixel-art/pixel-art.jpg"
@@ -35,7 +35,7 @@
       },
       {
         "title": "Calculator",
-        "startDate": "2022",
+        "startDate": "2021",
         "description": "A calculator that can perform add, subtract, multiply, and division functions. Tried to match similar operate functions as window's calculator. I took up this personal project to learn implementations of basic css, html, and dom manipulation using javascript. ",
         "images": [
           "images/portfolio/calculator/1.jpg",
@@ -82,36 +82,8 @@
         ]
       },
       {
-        "title": "Memory Game",
-        "startDate": "2022",
-        "description": "A memory game based on popular comic characters. The goal is to click on as many unique images in a row. This project was made using react and functional component. It was made to explore lifecycles using hooks. The challenging part of this project was to store the state and share it with other components while also updating each component's view to match. Hooks such as useState and  useEffect were used. This project also get image data using fetch from an api endpoint.",
-        "images": [
-          "images/portfolio/memory/1.jpg",
-          "images/portfolio/memory/2.jpg"
-        ],
-        "url": "https://namhnguy.github.io/react-memory-game/",
-        "technologies": [
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          },
-          {
-            "class": "devicon-html5-plain",
-            "name": "HTML 5"
-          },
-          {
-            "class": "devicon-css3-plain",
-            "name": "CSS 3"
-          },
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          }
-        ]
-      },
-      {
         "title": "MERN stack project",
-        "startDate": "2022",
+        "startDate": "2021",
         "description": "This project provide users an ability to set goals for future review. It utilize the MERN stack to provide this. State management is also handled using Redux to share state throughout the components. Axios was used in the frontend to query the database provided by mongoDB to get user's goal data. On the backend, express was used to make the routes to handle CRUD functions to mongoDB. Users are authenticated using JWT to provide a token and check against the database.",
         "images": [
           "images/portfolio/mern/1.jpg",
@@ -155,7 +127,7 @@
       {
         "company": "Codubee",
         "title": "Front-End Developer Mentee",
-        "years": "01.2021 - 05.2021",
+        "years": "01.2018 - 05.2018",
         "mainTech": [
           "React"
         ],
@@ -173,16 +145,31 @@
         ]
       },
       {
-        "company": "Antra",
-        "title": "Front-End React Intern",
-        "years": "01.2022 - present",
+        "company": "XR Sports Group",
+        "title": "Game Developer",
+        "years": "06.2019 - 11.2020",
+        "mainTech": [
+          "Unity, PlayCanvas, React"
+        ],
+        "technologies": [
+          "C#",
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "Jira"
+        ]
+      },
+      {
+        "company": "Children's Health",
+        "title": "Front-End Developer",
+        "years": "01.2021 - present",
         "mainTech": [
           "React"
         ],
         "technologies": [
           "REST API",
           "JavaScript",
-          "Bootstrap",
+          "Chakra UI",
           "HTML",
           "CSS",
           "Slack",
@@ -190,7 +177,8 @@
           "Postman",
           "Express",
           "Redux",
-          "MongoDB"
+          "MongoDB",
+          "Jira"
         ]
       }
     ]
