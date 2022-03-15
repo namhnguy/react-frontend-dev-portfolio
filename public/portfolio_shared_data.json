@@ -7,11 +7,6 @@
           "name": "github",
           "url": "https://github.com/namhnguy",
           "class": "fab fa-github"
-        },
-        {
-          "name": "linkedin",
-          "url": "https://www.linkedin.com/in/nam-nguyen-b9443419b/",
-          "class": "fab fa-linkedin"
         }
       ],
       "image": "profile.jpg"
