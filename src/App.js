@@ -1,18 +1,18 @@
-import React, { Component } from "react";
-import $ from "jquery";
-import "./App.scss";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import About from "./components/About";
-import Experience from "./components/Experience";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import React, { Component } from 'react';
+import $ from 'jquery';
+import './App.scss';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import About from './components/About';
+import Experience from './components/Experience';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
 
 class App extends Component {
   constructor(props) {
     super();
     this.state = {
-      foo: "bar",
+      foo: 'bar',
       resumeData: {},
       sharedData: {},
     };
@@ -52,7 +52,7 @@ class App extends Component {
   loadResumeFromPath(path) {
     $.ajax({
       url: path,
-      dataType: "json",
+      dataType: 'json',
       cache: false,
       success: function (data) {
         this.setState({ resumeData: data });
@@ -66,7 +66,7 @@ class App extends Component {
   loadSharedData() {
     $.ajax({
       url: `portfolio_shared_data.json`,
-      dataType: "json",
+      dataType: 'json',
       cache: false,
       success: function (data) {
         this.setState({ sharedData: data });
@@ -82,12 +82,12 @@ class App extends Component {
     return (
       <div>
         <Header sharedData={this.state.sharedData.basic_info} />
-        <div className="col-md-12 mx-auto text-center language">
-          <div style={{ display: "inline" }}>
+        <div className='col-md-12 mx-auto text-center language'>
+          <div style={{ display: 'inline' }}>
             <span
-              className="iconify language-icon mr-5"
-              data-icon="iconoir:mouse-scroll-wheel"
-              data-inline="false"
+              className='iconify language-icon mr-5'
+              data-icon='iconoir:mouse-scroll-wheel'
+              data-inline='false'
               id={window.$primaryLanguageIconId}
             ></span>
           </div>
@@ -96,16 +96,16 @@ class App extends Component {
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}
         />
-        <Projects
-          resumeProjects={this.state.resumeData.projects}
+        <Experience
+          resumeExperience={this.state.resumeData.experience}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
         <Skills
           sharedSkills={this.state.sharedData.skills}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
-        <Experience
-          resumeExperience={this.state.resumeData.experience}
+        <Projects
+          resumeProjects={this.state.resumeData.projects}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
