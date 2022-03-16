@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Welcome",
-      "description": "I am a graduate from UT Dallas who is interested in web development and game development. I have 4 year experience building web applications using React and the MERN stack. I also enjoy making 2D and 3D games using the Unity Engine.",
+      "description": "I am a graduate from UT Dallas who is interested in web development and game development. I have 4 years of experience using technologies such as HTML5, CSS3, JavaScript, jQuery, Bootstrap, AJAX, React, Redux, Node.js, Webpack, Babel, etc. My strenghts is working in front-end using React to develop SPA and web applications with responsiveness in mind. I am experienced with utilizing RESTful API and complying with REST architecture. I also have experience with latest technologies such as Next.js to take advantage of features such as server side rendering to improve load time. I also enjoy making 2D and 3D games using the Unity Engine.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -12,7 +12,7 @@
     "projects": [
       {
         "title": "Pixel Art",
-        "startDate": "2021",
+        "startDate": "2020",
         "description": "A fun project to supply a way for anyone to do simple pixel art right in their browser. Be it for a mockup or to make a work of art, this project gives that possibility. This project was made to learn the underlying usages of Javascript to manipulate the DOM and using event listeners.",
         "images": [
           "images/portfolio/pixel-art/pixel-art.jpg"
@@ -30,54 +30,6 @@
           {
             "class": "devicon-css3-plain",
             "name": "CSS 3"
-          }
-        ]
-      },
-      {
-        "title": "Calculator",
-        "startDate": "2021",
-        "description": "A calculator that can perform add, subtract, multiply, and division functions. Tried to match similar operate functions as window's calculator. I took up this personal project to learn implementations of basic css, html, and dom manipulation using javascript. ",
-        "images": [
-          "images/portfolio/calculator/1.jpg",
-          "images/portfolio/calculator/2.jpg"
-        ],
-        "url": "https://namhnguy.github.io/calculator/",
-        "technologies": [
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          },
-          {
-            "class": "devicon-html5-plain",
-            "name": "HTML 5"
-          },
-          {
-            "class": "devicon-css3-plain",
-            "name": "CSS 3"
-          }
-        ]
-      },
-      {
-        "title": "Logbook ARG",
-        "startDate": "2021",
-        "description": "This project was made as part of an ARG for a community that enjoys solving mysteries and puzzles. The project itself is hosted on vercel and utilize Next.js framework. For fast deployment of style, Chakra UI was used. Firebase was used as the backend to hold data of puzzle answers.",
-        "images": [
-          "images/portfolio/logbook/1.jpg",
-          "images/portfolio/logbook/2.jpg"
-        ],
-        "url": "https://thetruthmaybeprobably.vercel.app/",
-        "technologies": [
-          {
-            "class": "devicon-nextjs-plain",
-            "name": "Next.js"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          },
-          {
-            "class": "devicon-firebase-plain",
-            "name": "Firebase"
           }
         ]
       },
@@ -127,7 +79,7 @@
       {
         "company": "Codubee",
         "title": "Front-End Developer",
-        "years": "01.2018 - 05.2018",
+        "years": "01.2019 - 05.2019",
         "mainTech": [
           "React"
         ],
