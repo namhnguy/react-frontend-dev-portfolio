@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Welcome",
-      "description": "I am a graduate from UT Dallas who is interested in web development and game development. I have 4 years of experience using technologies such as HTML5, CSS3, JavaScript, jQuery, Bootstrap, AJAX, React, Redux, Node.js, Webpack, Babel, etc. My strenghts is working in front-end using React to develop SPA and web applications with responsiveness in mind. I am experienced with utilizing RESTful API and complying with REST architecture. I also have experience with latest technologies such as Next.js to take advantage of features such as server side rendering to improve load time. I also enjoy making 2D and 3D games using the Unity Engine.",
+      "description": "I am a graduate from UT Dallas who is interested in web development and game development. I have 4 years of experience using technologies such as HTML5, CSS3, JavaScript, jQuery, Bootstrap, AJAX, React, Redux, Node.js, Webpack, Babel, etc. My strength is working in front-end using React to develop SPA and web applications with responsiveness in mind. I am experienced with utilizing RESTful API and complying with REST architecture. I also have experience with latest technologies such as Next.js to take advantage of features such as server side rendering to improve load time. I also enjoy making 2D and 3D games using the Unity Engine.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
