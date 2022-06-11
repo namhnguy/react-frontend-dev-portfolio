@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "name": "Nam Nguyen",
-      "titles": [ "Front-end Developer" ],
+      "titles": [ "Software Engineer", "Front-end Developer", "Game Developer" ],
       "social": [
         {
           "name": "github",
@@ -30,6 +30,10 @@
           "class": "devicon-javascript-plain"
         },
         {
+          "name": "Java",
+          "class": "devicon-java-plain"
+        },
+        {
           "name": "Node.js",
           "class": "devicon-nodejs-plain"
         },
@@ -40,6 +44,10 @@
         {
           "name": "C#",
           "class": "devicon-csharp-plain"
+        },
+        {
+          "name": "Unity",
+          "class": "devicon-unity-original"
         },
         {
           "name": "Express",
